@@ -103,14 +103,18 @@ th, td {
     object-fit: cover;
 }
 
-#notification {
+#surprisebutton {
     margin-top: 40px;
 }
 
-#notifcont {
+#surprisecontainer {
     margin: auto;
     display: flex;
     justify-content: center;
+}
+
+#disclaimer {
+    text-align: center;
 }
 
 /* Tablet layout */

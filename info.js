@@ -1,4 +1,4 @@
-document.querySelector("#notification").addEventListener("click", () => {
+document.querySelector("#surprisebutton").addEventListener("click", () => {
     document.body.style.setProperty("transform", "rotate(180deg)")
     
 });

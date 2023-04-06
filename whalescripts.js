@@ -8,21 +8,18 @@ function button1() {
     pageroot.setProperty("--textColour", "midnightblue");
     pageroot.setProperty("--backgroundColour", "darkseagreen");
     pageroot.setProperty("--headerColour", "lightseagreen");
-    pageroot.setProperty("--blurColour", "white");
 }
 
 function button2() {
     pageroot.setProperty("--textColour", "maroon");
     pageroot.setProperty("--backgroundColour", "lightsteelblue");
     pageroot.setProperty("--headerColour", "rosybrown");
-    pageroot.setProperty("--blurColour", "white");
 }
 
 function button3() {
     pageroot.setProperty("--textColour", "black");
     pageroot.setProperty("--backgroundColour", "gainsboro");
     pageroot.setProperty("--headerColour", "lightblue");
-    pageroot.setProperty("--blurColour", "black");
 }
 
 let changeText = document.getElementById("greeting");
