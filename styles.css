@@ -47,7 +47,7 @@ nav > a {
     left: 50%;
     top: 10%;
     font-size: 54px;
-    color: var(--backgroundColour);
+    color: white;
     text-shadow: 1px 1px 20px var(--blurColour);
     transform: translate(-50%, -50%);
     text-align: center;
