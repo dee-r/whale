@@ -1,0 +1,182 @@
+:root {
+    --textColour: black;
+    --backgroundColour: gainsboro;
+    --headerColour: lightblue;
+    --blurColour: black;
+}
+
+body {
+    background-color: var(--backgroundColour);
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    color: var(--textColour);
+}
+
+header {
+    background-color: var(--headerColour);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+h1 {
+    padding-left: 30px;
+    color: var(--textColour);
+}
+
+nav {
+    padding-right: 30px;
+    font-size: 24px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: var(--textColour);
+}
+
+#hero {
+    position: relative;
+    
+}
+
+#hero > p {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    font-size: 54px;
+    color: var(--headerColour);
+    text-shadow: 1px 1px 20px var(--blurColour);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#hero > img{
+   min-width: 100%;
+   max-height: 80vh;
+   object-fit: cover;
+
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+button {
+    font-size: 24px;
+    color: var(--textColour);
+    background-color: var(--headerColour);
+}
+
+#content {
+    padding: 0px 50px;
+}
+
+table {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    font-size: 28px;
+}
+
+th, td {
+    border: 1px solid;
+
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#grid img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+#notification {
+    margin-top: 40px;
+}
+
+#notifcont {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tablet layout */
+@media only screen and (max-width: 1200px) {
+    #grid {
+        grid-template-columns: auto auto;
+    }
+
+    #grid img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #buttons {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+
+    table {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+}
+
+/* Mobile layout*/
+@media only screen and (max-width: 600px) {
+    #grid{
+        grid-template-columns: auto;
+    }
+
+    header {
+        flex-direction: column;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+    h1 {
+        padding-left: 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #content p {
+        font-size: 12px;
+    }
+    
+    table {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    #hero > p {
+        font-size: 44px;
+    }
+
+    #buttons {
+        flex-direction: column;
+        gap: 20px
+    }
+
+    #notification {
+        font-size: 16px;
+    }
+}
+
+
