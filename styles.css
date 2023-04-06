@@ -42,12 +42,12 @@ nav > a {
     
 }
 
-#hero > p {
+#greeting {
     position: absolute;
     left: 50%;
     top: 10%;
     font-size: 54px;
-    color: var(--headerColour);
+    color: var(--backgroundColour);
     text-shadow: 1px 1px 20px var(--blurColour);
     transform: translate(-50%, -50%);
     text-align: center;
