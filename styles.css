@@ -48,7 +48,7 @@ nav > a {
     top: 10%;
     font-size: 54px;
     color: white;
-    text-shadow: 1px 1px 20px var(--blurColour);
+    /*text-shadow: 1px 1px 20px var(--blurColour);*/
     transform: translate(-50%, -50%);
     text-align: center;
 }
